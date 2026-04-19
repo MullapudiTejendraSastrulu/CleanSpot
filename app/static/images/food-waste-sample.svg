@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" style="background: linear-gradient(135deg, #f0fdf4, #dcfce7)">
+  <!-- Background pattern -->
+  <defs>
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="20" height="20">
+      <circle cx="10" cy="10" r="1" fill="#22c55e" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
+  
+  <!-- Food waste illustration -->
+  <g transform="translate(200, 150)">
+    <!-- Banana peel -->
+    <path d="M-60,-40 Q-70,-30 -65,-10 Q-60,10 -50,20 Q-40,15 -45,-5 Q-50,-25 -60,-40" fill="#f59e0b" opacity="0.8"/>
+    
+    <!-- Apple core -->
+    <ellipse cx="-20" cy="0" rx="15" ry="25" fill="#dc2626" opacity="0.7"/>
+    <ellipse cx="-20" cy="0" rx="8" ry="20" fill="#fbbf24" opacity="0.5"/>
+    
+    <!-- Bread crumbs -->
+    <circle cx="10" cy="-20" r="8" fill="#92400e" opacity="0.6"/>
+    <circle cx="25" cy="-15" r="6" fill="#92400e" opacity="0.5"/>
+    <circle cx="15" cy="-5" r="4" fill="#92400e" opacity="0.4"/>
+    
+    <!-- Vegetable scraps -->
+    <path d="M30,10 Q40,5 45,15 Q40,25 30,20 Q25,15 30,10" fill="#22c55e" opacity="0.6"/>
+    <path d="M50,0 Q60,-5 65,5 Q60,15 50,10 Q45,5 50,0" fill="#16a34a" opacity="0.5"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#15803d">
+    🌱 CleanSpot
+  </text>
+  <text x="200" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">
+    Food Waste Reporting Sample
+  </text>
+  
+  <!-- Bottom text -->
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">
+    Report food waste to keep our communities clean
+  </text>
+</svg>
